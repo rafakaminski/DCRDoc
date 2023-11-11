@@ -6,11 +6,14 @@
 
 <div class="container">
 
-    <h1>Index</h1>
+    @*<h1>Index</h1>*@
 
     <p>
-        <a asp-action="Create">Create New</a>
+        <a class="btn btn-outline-primary" href="@Url.Action("Create", "Ocorrencias")">
+            Cadastrar Nova Ocorrência
+        </a>
     </p>
+
     <table class="table">
         <thead>
             <tr>

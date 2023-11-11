@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
 * Start Bootstrap - New Age v6.0.7 (https://startbootstrap.com/theme/new-age)
 * Copyright 2013-2023 Start Bootstrap
@@ -616,7 +616,7 @@ progress {
 }
 
     .blockquote-footer::before {
-        content: "??";
+        content: "��";
     }
 
 .img-fluid {
@@ -12414,7 +12414,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+    background: linear-gradient(45deg, #e49e48, #ca4e17) !important;
 }
 
 .font-alt {
