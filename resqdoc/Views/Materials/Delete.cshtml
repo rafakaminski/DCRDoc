@@ -1,4 +1,4 @@
-﻿@model ResqDoc.Models.Ocorrencia
+﻿@model resqdoc.Models.Material
 
 @{
     ViewData["Title"] = "Delete";
@@ -10,7 +10,7 @@
 
     <h3>Are you sure you want to delete this?</h3>
     <div>
-        <h4>Ocorrencia</h4>
+        <h4>Material</h4>
         <hr />
         <dl class="row">
             <dt class = "col-sm-2">
@@ -20,22 +20,28 @@
                 @Html.DisplayFor(model => model.Titulo)
             </dd>
             <dt class = "col-sm-2">
-                @Html.DisplayNameFor(model => model.Gravidade)
+                @Html.DisplayNameFor(model => model.Tipo)
             </dt>
             <dd class = "col-sm-10">
-                @Html.DisplayFor(model => model.Gravidade)
+                @Html.DisplayFor(model => model.Tipo)
             </dd>
             <dt class = "col-sm-2">
-                @Html.DisplayNameFor(model => model.Data)
+                @Html.DisplayNameFor(model => model.Quantidade)
             </dt>
             <dd class = "col-sm-10">
-                @Html.DisplayFor(model => model.Data)
+                @Html.DisplayFor(model => model.Quantidade)
             </dd>
             <dt class = "col-sm-2">
-                @Html.DisplayNameFor(model => model.Cobrade)
+                @Html.DisplayNameFor(model => model.Local)
             </dt>
             <dd class = "col-sm-10">
-                @Html.DisplayFor(model => model.Cobrade)
+                @Html.DisplayFor(model => model.Local)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Cidadao)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Cidadao)
             </dd>
         </dl>
     
@@ -45,5 +51,4 @@
             <a asp-action="Index">Back to List</a>
         </form>
     </div>
-
 </div>

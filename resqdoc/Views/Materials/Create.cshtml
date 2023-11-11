@@ -1,5 +1,4 @@
-﻿@using resqdoc.Enums
-@model ResqDoc.Models.Ocorrencia
+﻿@model resqdoc.Models.Material
 
 @{
     ViewData["Title"] = "Create";
@@ -9,7 +8,7 @@
 
     <h1>Create</h1>
 
-    <h4>Ocorrencia</h4>
+    <h4>Material</h4>
     <hr />
     <div class="row">
         <div class="col-md-4">
@@ -21,19 +20,24 @@
                     <span asp-validation-for="Titulo" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Gravidade" class="control-label"></label>
-                    <select asp-for="Gravidade" class="form-control" asp-items="Html.GetEnumSelectList<GravidadeEnum>()"></select>
-                    <span asp-validation-for="Gravidade" class="text-danger"></span>
+                    <label asp-for="Tipo" class="control-label"></label>
+                    <input asp-for="Tipo" class="form-control" />
+                    <span asp-validation-for="Tipo" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Data" class="control-label"></label>
-                    <input asp-for="Data" class="form-control" />
-                    <span asp-validation-for="Data" class="text-danger"></span>
+                    <label asp-for="Quantidade" class="control-label"></label>
+                    <input asp-for="Quantidade" class="form-control" />
+                    <span asp-validation-for="Quantidade" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Cobrade" class="control-label"></label>
-                    <input asp-for="Cobrade" class="form-control" />
-                    <span asp-validation-for="Cobrade" class="text-danger"></span>
+                    <label asp-for="Local" class="control-label"></label>
+                    <input asp-for="Local" class="form-control" />
+                    <span asp-validation-for="Local" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Cidadao" class="control-label"></label>
+                    <input asp-for="Cidadao" class="form-control" />
+                    <span asp-validation-for="Cidadao" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <input type="submit" value="Create" class="btn btn-primary" />

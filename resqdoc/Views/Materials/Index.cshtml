@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ResqDoc.Models.Ocorrencia>
+﻿@model IEnumerable<resqdoc.Models.Material>
 
 @{
     ViewData["Title"] = "Index";
@@ -18,13 +18,16 @@
                     @Html.DisplayNameFor(model => model.Titulo)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Gravidade)
+                    @Html.DisplayNameFor(model => model.Tipo)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Data)
+                    @Html.DisplayNameFor(model => model.Quantidade)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Cobrade)
+                    @Html.DisplayNameFor(model => model.Local)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cidadao)
                 </th>
                 <th></th>
             </tr>
@@ -36,13 +39,16 @@
                     @Html.DisplayFor(modelItem => item.Titulo)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Gravidade)
+                    @Html.DisplayFor(modelItem => item.Tipo)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Data)
+                    @Html.DisplayFor(modelItem => item.Quantidade)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Cobrade)
+                    @Html.DisplayFor(modelItem => item.Local)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cidadao)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

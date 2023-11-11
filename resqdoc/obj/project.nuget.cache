@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CVg3nODOiT0bKGo38J4xR3toVKft1iT98pKTQq8iySMHrgt1d/qzQwsDNV3bYrJt4C8if+63NwkvqZetEeOs0A==",
+  "dgSpecHash": "bQ2ZrYuMVnhr65/Cb4YlEltKGIm0NinVMthUWRf5hTna95XLDJli3reYEIFBX5coKg3TNkBUFuwY0dqipqquFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafad\\OneDrive\\Documentos\\ProjetoDFResqdoc\\resqdoc\\resqdoc.csproj",
+  "projectFilePath": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\resqdoc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafad\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\rafad\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
