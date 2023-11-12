@@ -1,0 +1,36 @@
+﻿﻿@{
+    ViewData["Title"] = "Login Page";
+    Layout = "_LayoutSemMenu";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Login</h2>
+                    <form id="login-form">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Usuário</label>
+                            <input type="text" class="form-control" id="username" name="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                            <button class="btn btn-link" id="forgot-password">Esqueci a senha</button>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <a class="btn btn-primary" href="@Url.Action("Index", "Home")">
+                                Acessar
+                            </a>
+                        </div>
+                    </form>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-link" id="no-account">Cadastra-se</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
