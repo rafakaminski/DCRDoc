@@ -5,50 +5,63 @@
 }
 
 <div class="container">
-
     <h1></h1>
-
     <h4>Preencha as informações abaixo</h4>
     <hr />
-    <div class="row">
-        <div class="">
+    <div class="">
+        <div class="col-md-6 mx-auto">
+            <!-- Reduzindo o tamanho da coluna para metade da largura -->
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
+
+                <div class="form-group row">
+                    <!-- Agrupando rótulo e campo em uma linha -->
                     <label asp-for="Titulo" class="control-label"></label>
-                    <input asp-for="Titulo" class="form-control" />
-                    <span asp-validation-for="Titulo" class="text-danger"></span>
+                    <div class="col-md">
+                        <input asp-for="Titulo" class="form-control" />
+                        <span asp-validation-for="Titulo" class="text-danger"></span>
+                    </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group row">
                     <label asp-for="Tipo" class="control-label"></label>
-                    <input asp-for="Tipo" class="form-control" />
-                    <span asp-validation-for="Tipo" class="text-danger"></span>
+                    <div class="col-md">
+                        <input asp-for="Tipo" class="form-control" />
+                        <span asp-validation-for="Tipo" class="text-danger"></span>
+                    </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group row">
                     <label asp-for="Quantidade" class="control-label"></label>
-                    <input asp-for="Quantidade" class="form-control" />
-                    <span asp-validation-for="Quantidade" class="text-danger"></span>
+                    <div class="col-md">
+                        <input asp-for="Quantidade" class="form-control" />
+                        <span asp-validation-for="Quantidade" class="text-danger"></span>
+                    </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group row">
                     <label asp-for="Local" class="control-label"></label>
-                    <input asp-for="Local" class="form-control" />
-                    <span asp-validation-for="Local" class="text-danger"></span>
+                    <div class="col-md">
+                        <input asp-for="Local" class="form-control" />
+                        <span asp-validation-for="Local" class="text-danger"></span>
+                    </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group row">
                     <label asp-for="Cidadao" class="control-label"></label>
-                    <input asp-for="Cidadao" class="form-control" />
-                    <span asp-validation-for="Cidadao" class="text-danger"></span>
+                    <div class="col-md">
+                        <input asp-for="Cidadao" class="form-control" />
+                        <span asp-validation-for="Cidadao" class="text-danger"></span>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="submit" value="Create" class="btn btn-primary" />
+                </br>
+                <div class="form-group d-grid gap-2">
+                    <input type="submit" value="Salvar" class="btn btn-primary" />
                 </div>
             </form>
+            <div class="form-group d-grid mt-1">
+                <a class="btn btn-secondary" asp-action="Index">Voltar</a>
+            </div>
         </div>
     </div>
 
-    <div>
-        <a asp-action="Index">Back to List</a>
-    </div>
+    
 
 </div>
 @section Scripts {
