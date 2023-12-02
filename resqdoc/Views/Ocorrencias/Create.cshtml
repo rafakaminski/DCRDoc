@@ -11,8 +11,9 @@
 
     <h4>Preencha as informações abaixo</h4>
     <hr />
-    <div class="row">
-        <div class="">
+    <div class="">
+        <div class="col-md-6 mx-auto">
+
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
@@ -36,16 +37,18 @@
                     <span asp-validation-for="Cobrade" class="text-danger"></span>
                 </div>
                 <br>
+
                 <div class="form-group d-grid gap-2">
-                    <input type="submit" value="Criar" class="btn btn-primary" />
+                    <input type="submit" value="Salvar" class="btn btn-success" />
                 </div>
             </form>
+            <div class="form-group d-grid mt-1">
+                <a class="btn btn-secondary" asp-action="Index">Voltar</a>
+            </div>
         </div>
     </div>
 
-    <div class="form-group d-grid mt-1">
-        <a class="btn btn-secondary"asp-action="Index">Voltar</a>
-    </div>
+    
 
     @*<a class="btn btn-outline-primary" href="@Url.Action("Create", "Ocorrencias")">
         Cadastrar Nova Ocorrência

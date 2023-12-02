@@ -245,8 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\logopeq.png",
+      "PackagePath": "staticwebassets\\logopeq.png"
+    },
+    {
+      "Id": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\logopequeno.png",
+      "PackagePath": "staticwebassets\\logopequeno.png"
+    },
+    {
       "Id": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\logopreto.png",
       "PackagePath": "staticwebassets\\logopreto.png"
+    },
+    {
+      "Id": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\mapa.png",
+      "PackagePath": "staticwebassets\\mapa.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.resqdoc.props",

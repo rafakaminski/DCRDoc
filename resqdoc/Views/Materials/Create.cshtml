@@ -11,6 +11,8 @@
     <div class="">
         <div class="col-md-6 mx-auto">
             <!-- Reduzindo o tamanho da coluna para metade da largura -->
+
+
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
@@ -44,15 +46,16 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label asp-for="Cidadao" class="control-label"></label>
+                    <label asp-for="Cidadao" class="control-label">CPF Cidadão:</label>
                     <div class="col-md">
                         <input asp-for="Cidadao" class="form-control" />
                         <span asp-validation-for="Cidadao" class="text-danger"></span>
                     </div>
                 </div>
                 </br>
+
                 <div class="form-group d-grid gap-2">
-                    <input type="submit" value="Salvar" class="btn btn-primary" />
+                    <input type="submit" value="Salvar" class="btn btn-success" />
                 </div>
             </form>
             <div class="form-group d-grid mt-1">

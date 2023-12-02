@@ -3,8 +3,8 @@
     public enum GravidadeEnum
     {
         Leve,
-        Media,
+        Média,
         Grave,
-        Gravissima
+        Gravíssima
     }
 }

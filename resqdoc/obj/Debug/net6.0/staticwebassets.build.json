@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EaEXvklmewFTbmUc/CAP5+VfrFhJtgSFvPXsAojK/Aw=",
+  "Hash": "n2XvgJf5ovovrxDz2fmX8dXPloeI/kK9Na/swH07E9g=",
   "Source": "resqdoc",
   "BasePath": "_content/resqdoc",
   "Mode": "Default",
@@ -1071,6 +1071,40 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\logopeq.png",
+      "SourceId": "resqdoc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\",
+      "BasePath": "_content/resqdoc",
+      "RelativePath": "logopeq.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logopeq.png"
+    },
+    {
+      "Identity": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\logopequeno.png",
+      "SourceId": "resqdoc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\",
+      "BasePath": "_content/resqdoc",
+      "RelativePath": "logopequeno.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logopequeno.png"
+    },
+    {
       "Identity": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\logopreto.png",
       "SourceId": "resqdoc",
       "SourceType": "Discovered",
@@ -1086,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logopreto.png"
+    },
+    {
+      "Identity": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\mapa.png",
+      "SourceId": "resqdoc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\wwwroot\\",
+      "BasePath": "_content/resqdoc",
+      "RelativePath": "mapa.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mapa.png"
     }
   ]
 }
