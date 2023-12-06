@@ -11,8 +11,8 @@ using resqdoc.Models;
 namespace resqdoc.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20231107154419_inicial")]
-    partial class inicial
+    [Migration("20231205235156_testetes")]
+    partial class testetes
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -41,6 +41,38 @@ namespace resqdoc.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Cobrade");
+                });
+
+            modelBuilder.Entity("resqdoc.Models.Material", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Cidadao")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Local")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Tipo")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Titulo")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Material");
                 });
 
             modelBuilder.Entity("ResqDoc.Models.Ocorrencia", b =>

@@ -2622,17 +2622,6 @@ textarea.form-control-lg {
     margin-right: 1rem;
 }
 
-.btn-check {
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
-    pointer-events: none;
-}
-
-    .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
-        pointer-events: none;
-        filter: none;
-        opacity: 0.65;
-    }
 
 .form-range {
     width: 100%;
@@ -3494,6 +3483,16 @@ textarea.form-control-lg {
     --bs-btn-box-shadow: none;
     --bs-btn-focus-shadow-rgb: 73, 85, 242;
     text-decoration: underline;
+}
+
+.btn-voltar {
+    color: #fff;
+    background-color: #F2CEAB;
+}
+
+.btn-editar {
+    color: #fff;
+    background-color: #247BA0;
 }
 
     .btn-link:focus-visible {
@@ -8311,8 +8310,7 @@ textarea.form-control-lg {
 }
 
 .bg-warning {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+    color: #13293D;
 }
 
 .bg-danger {

@@ -10878,24 +10878,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafad\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\rafael_libera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\resqdoc.csproj",
+      "projectUniqueName": "C:\\Users\\rafael_libera\\Documents\\DCRDoc\\resqdoc\\resqdoc.csproj",
       "projectName": "resqdoc",
-      "projectPath": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\resqdoc.csproj",
-      "packagesPath": "C:\\Users\\rafad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafad\\OneDrive\\Documentos\\projeto aplicado final\\resqdoc\\obj\\",
+      "projectPath": "C:\\Users\\rafael_libera\\Documents\\DCRDoc\\resqdoc\\resqdoc.csproj",
+      "packagesPath": "C:\\Users\\rafael_libera\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rafael_libera\\Documents\\DCRDoc\\resqdoc\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rafad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\rafael_libera\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10903,7 +10898,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10968,7 +10963,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
